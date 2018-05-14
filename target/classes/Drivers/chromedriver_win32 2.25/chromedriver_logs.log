@@ -1,0 +1,162 @@
+[0.506][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.515][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.519][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.539][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-component-extension="D:\Users\pawan.awasthi\AppData\Local\Temp\scoped_dir4960_23244\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12684 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="D:\Users\pawan.awasthi\AppData\Local\Temp\scoped_dir4960_10459" data:,
+[2.026][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[3.069][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)",
+      "userDataDir": "D:\\Users\\pawan.awasthi\\AppData\\Local\\Temp\\scoped_dir4960_10459"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[3.112][INFO]: COMMAND Navigate {
+   "url": "http://www.bankofbaroda.com/"
+}
+[3.112][INFO]: Waiting for pending navigations...
+[3.125][INFO]: Done waiting for pending navigations. Status: ok
+[19.798][INFO]: Waiting for pending navigations...
+[191.090][INFO]: Done waiting for pending navigations. Status: ok
+[191.090][INFO]: RESPONSE Navigate
+[191.107][INFO]: COMMAND GetWindows {
+
+}
+[191.109][INFO]: RESPONSE GetWindows [ "CDwindow-07b4e65d-1be0-403c-9aa0-7ea2539cb55b" ]
+[191.116][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='cbi1']/table/tbody/tr/td[2]/a"
+}
+[191.116][INFO]: Waiting for pending navigations...
+[191.117][INFO]: Done waiting for pending navigations. Status: ok
+[191.132][INFO]: Waiting for pending navigations...
+[191.133][INFO]: Done waiting for pending navigations. Status: ok
+[191.133][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5305955704631375-1"
+}
+[191.140][INFO]: COMMAND ClickElement {
+   "id": "0.5305955704631375-1"
+}
+[191.140][INFO]: Waiting for pending navigations...
+[191.141][INFO]: Done waiting for pending navigations. Status: ok
+[191.182][INFO]: Waiting for pending navigations...
+[191.205][INFO]: Done waiting for pending navigations. Status: ok
+[191.205][INFO]: RESPONSE ClickElement
+[193.212][INFO]: COMMAND GetWindows {
+
+}
+[193.213][INFO]: RESPONSE GetWindows [ "CDwindow-07b4e65d-1be0-403c-9aa0-7ea2539cb55b", "CDwindow-013e209f-2427-4a45-8772-839e98ec0958" ]
+[193.219][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-013e209f-2427-4a45-8772-839e98ec0958"
+}
+[193.221][INFO]: RESPONSE SwitchToWindow
+[193.226][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//select[@name='go']"
+}
+[193.227][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[194.245][INFO]: Waiting for pending navigations...
+[196.575][INFO]: Done waiting for pending navigations. Status: ok
+[196.599][INFO]: Waiting for pending navigations...
+[196.602][INFO]: Done waiting for pending navigations. Status: ok
+[196.602][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.4944719833375557-1"
+}
+[196.606][INFO]: COMMAND TypeElement {
+   "id": "0.4944719833375557-1",
+   "value": [ "India" ]
+}
+[196.606][INFO]: Waiting for pending navigations...
+[196.607][INFO]: Done waiting for pending navigations. Status: ok
+[196.647][INFO]: Waiting for pending navigations...
+[203.679][INFO]: Done waiting for pending navigations. Status: ok
+[203.679][INFO]: RESPONSE TypeElement

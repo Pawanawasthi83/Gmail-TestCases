@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GmailLogin]" parallel="methods">
+  <parameter name="Browser" value="FireFox"/>
+  <test name="TestGmailLogin(failed)" parallel="methods">
+    <classes>
+      <class name="test.TestGmailLogin">
+        <methods>
+          <include name="testEditProfilePic"/>
+          <include name="testGmailLogin" invocation-numbers="0"/>
+          <include name="initialization"/>
+          <include name="rampDown"/>
+        </methods>
+      </class> <!-- test.TestGmailLogin -->
+    </classes>
+  </test> <!-- TestGmailLogin(failed) -->
+</suite> <!-- Failed suite [GmailLogin] -->

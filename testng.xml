@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GmailLogin" data-provider-thread-count="10" parallel="methods" thread-count="5" >
+  <parameter name="Browser" value="FireFox"/>
+  
+  <test name="TestGmailLogin">
+  	<!-- <groups><run><include name="QA"></include></run></groups>-->
+  	<classes>
+      <class name="test.TestGmailLogin">
+	      <methods>
+		      <include name=""></include>
+		      <exclude name=""></exclude>
+	      </methods>
+	      </class>
+    </classes>
+  </test> <!-- TestGmailLogin -->
+</suite> <!-- GmailLogin -->

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="3" ignored="0" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="147041" started-at="2017-05-30T13:14:22Z" finished-at="2017-05-30T13:16:49Z">
+    <groups>
+      <group name="QA">
+        <method signature="TestGmailLogin.testEditProfilePic()[pri:5, instance:test.TestGmailLogin@2ac273d3]" name="testEditProfilePic" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLogOut()[pri:4, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLogOut" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLoginWithBlankUserName()[pri:2, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLoginWithBlankUserName" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLoginWithPreviousPassword()[pri:3, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLoginWithPreviousPassword" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailSuccessfullLogin(java.lang.String, java.lang.String)[pri:1, instance:test.TestGmailLogin@2ac273d3]" name="testGmailSuccessfullLogin" class="test.TestGmailLogin"/>
+      </group> <!-- QA -->
+      <group name="PROD">
+        <method signature="TestGmailLogin.testEditProfilePic()[pri:5, instance:test.TestGmailLogin@2ac273d3]" name="testEditProfilePic" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLogOut()[pri:4, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLogOut" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLoginWithBlankUserName()[pri:2, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLoginWithBlankUserName" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLoginWithPreviousPassword()[pri:3, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLoginWithPreviousPassword" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailSuccessfullLogin(java.lang.String, java.lang.String)[pri:1, instance:test.TestGmailLogin@2ac273d3]" name="testGmailSuccessfullLogin" class="test.TestGmailLogin"/>
+      </group> <!-- PROD -->
+      <group name="UAT">
+        <method signature="TestGmailLogin.testEditProfilePic()[pri:5, instance:test.TestGmailLogin@2ac273d3]" name="testEditProfilePic" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLogOut()[pri:4, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLogOut" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLoginWithBlankUserName()[pri:2, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLoginWithBlankUserName" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailLoginWithPreviousPassword()[pri:3, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLoginWithPreviousPassword" class="test.TestGmailLogin"/>
+        <method signature="TestGmailLogin.testGmailSuccessfullLogin(java.lang.String, java.lang.String)[pri:1, instance:test.TestGmailLogin@2ac273d3]" name="testGmailSuccessfullLogin" class="test.TestGmailLogin"/>
+      </group> <!-- UAT -->
+    </groups>
+    <test name="Default test" duration-ms="147041" started-at="2017-05-30T13:14:22Z" finished-at="2017-05-30T13:16:49Z">
+      <class name="test.TestGmailLogin">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="config" is-config="true" duration-ms="6739" started-at="2017-05-30T18:44:22Z" finished-at="2017-05-30T18:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="initialization" is-config="true" duration-ms="22726" started-at="2017-05-30T18:44:29Z" finished-at="2017-05-30T18:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="SKIP" signature="testGmailSuccessfullLogin(java.lang.String, java.lang.String)[pri:1, instance:test.TestGmailLogin@2ac273d3]" name="testGmailSuccessfullLogin" duration-ms="13" started-at="2017-05-30T18:44:52Z" description="Enter Correct user Name and Password" data-provider="login" finished-at="2017-05-30T18:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pawanawasthi1983@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vml2YWx2QDE5ODM=]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skiping Test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skiping Test case
+	at test.TestGmailLogin.testGmailSuccessfullLogin(TestGmailLogin.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailSuccessfullLogin -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="initialization" is-config="true" duration-ms="19801" started-at="2017-05-30T18:44:52Z" finished-at="2017-05-30T18:45:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="rampDown()[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="rampDown" is-config="true" duration-ms="0" started-at="2017-05-30T18:44:52Z" finished-at="2017-05-30T18:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampDown -->
+        <test-method status="SKIP" signature="testGmailSuccessfullLogin(java.lang.String, java.lang.String)[pri:1, instance:test.TestGmailLogin@2ac273d3]" name="testGmailSuccessfullLogin" duration-ms="2" started-at="2017-05-30T18:45:12Z" description="Enter Correct user Name and Password" data-provider="login" finished-at="2017-05-30T18:45:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pawanawasthi83@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vml2YWx2QDE5ODM=]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skiping Test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skiping Test case
+	at test.TestGmailLogin.testGmailSuccessfullLogin(TestGmailLogin.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailSuccessfullLogin -->
+        <test-method status="PASS" signature="rampDown()[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="rampDown" is-config="true" duration-ms="0" started-at="2017-05-30T18:45:12Z" finished-at="2017-05-30T18:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="initialization" is-config="true" duration-ms="23023" started-at="2017-05-30T18:45:12Z" finished-at="2017-05-30T18:45:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="testGmailLoginWithBlankUserName()[pri:2, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLoginWithBlankUserName" duration-ms="1747" started-at="2017-05-30T18:45:35Z" description="Email/phone Field is blank" finished-at="2017-05-30T18:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailLoginWithBlankUserName -->
+        <test-method status="PASS" signature="rampDown()[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="rampDown" is-config="true" duration-ms="0" started-at="2017-05-30T18:45:36Z" finished-at="2017-05-30T18:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="initialization" is-config="true" duration-ms="20810" started-at="2017-05-30T18:45:36Z" finished-at="2017-05-30T18:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="FAIL" signature="testGmailLoginWithPreviousPassword()[pri:3, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLoginWithPreviousPassword" duration-ms="2596" started-at="2017-05-30T18:45:57Z" description="Verify error message after entering previous password" finished-at="2017-05-30T18:46:00Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (824.0166625976562, 377.5). Other element would receive the click: <div class="ANuIbb IdAqtf" jsname="k4HEge"></div>
+Command duration or timeout: 95 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'LP-EC8EB546E3EC', ip: '172.22.64.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 54719b8b-4d01-455e-a09b-5087d85cda24]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (824.0166625976562, 377.5). Other element would receive the click: <div class="ANuIbb IdAqtf" jsname="k4HEge"></div>
+Command duration or timeout: 95 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'LP-EC8EB546E3EC', ip: '172.22.64.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 54719b8b-4d01-455e-a09b-5087d85cda24
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at utility.CommonUtilities.clickElement(CommonUtilities.java:105)
+	at pages.GmailLogin.loginFailureWithPrvPassword(GmailLogin.java:83)
+	at test.TestGmailLogin.testGmailLoginWithPreviousPassword(TestGmailLogin.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailLoginWithPreviousPassword -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="initialization" is-config="true" duration-ms="20548" started-at="2017-05-30T18:46:00Z" finished-at="2017-05-30T18:46:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="rampDown()[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="rampDown" is-config="true" duration-ms="0" started-at="2017-05-30T18:46:00Z" finished-at="2017-05-30T18:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampDown -->
+        <test-method status="FAIL" signature="testGmailLogOut()[pri:4, instance:test.TestGmailLogin@2ac273d3]" name="testGmailLogOut" duration-ms="2485" started-at="2017-05-30T18:46:20Z" description="Verify Gmail logout" finished-at="2017-05-30T18:46:23Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (824.6500244140625, 377.5). Other element would receive the click: <div class="ANuIbb IdAqtf" jsname="k4HEge"></div>
+Command duration or timeout: 80 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'LP-EC8EB546E3EC', ip: '172.22.64.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c4ba22d6-de21-437f-9389-b03c5831783b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (824.6500244140625, 377.5). Other element would receive the click: <div class="ANuIbb IdAqtf" jsname="k4HEge"></div>
+Command duration or timeout: 80 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'LP-EC8EB546E3EC', ip: '172.22.64.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c4ba22d6-de21-437f-9389-b03c5831783b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at utility.CommonUtilities.clickElement(CommonUtilities.java:105)
+	at pages.GmailLogin.loginSuccessToGmail(GmailLogin.java:69)
+	at test.TestGmailLogin.testGmailLogOut(TestGmailLogin.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailLogOut -->
+        <test-method status="PASS" signature="rampDown()[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="rampDown" is-config="true" duration-ms="1" started-at="2017-05-30T18:46:23Z" finished-at="2017-05-30T18:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="initialization" is-config="true" duration-ms="23925" started-at="2017-05-30T18:46:23Z" finished-at="2017-05-30T18:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="FAIL" signature="testEditProfilePic()[pri:5, instance:test.TestGmailLogin@2ac273d3]" name="testEditProfilePic" duration-ms="2534" started-at="2017-05-30T18:46:47Z" description="Verify Edit gmail profile " finished-at="2017-05-30T18:46:49Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (824.2000122070312, 377.5). Other element would receive the click: <div class="ANuIbb IdAqtf" jsname="k4HEge"></div>
+Command duration or timeout: 83 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'LP-EC8EB546E3EC', ip: '172.22.64.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d2d264ae-c945-4b56-823c-7dcfa374172c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (824.2000122070312, 377.5). Other element would receive the click: <div class="ANuIbb IdAqtf" jsname="k4HEge"></div>
+Command duration or timeout: 83 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'LP-EC8EB546E3EC', ip: '172.22.64.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_122-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d2d264ae-c945-4b56-823c-7dcfa374172c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at utility.CommonUtilities.clickElement(CommonUtilities.java:105)
+	at pages.GmailLogin.loginSuccessToGmail(GmailLogin.java:69)
+	at test.TestGmailLogin.testEditProfilePic(TestGmailLogin.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditProfilePic -->
+        <test-method status="PASS" signature="rampDown()[pri:0, instance:test.TestGmailLogin@2ac273d3]" name="rampDown" is-config="true" duration-ms="0" started-at="2017-05-30T18:46:49Z" finished-at="2017-05-30T18:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampDown -->
+      </class> <!-- test.TestGmailLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
